@@ -7,16 +7,17 @@ import br.conversorhoras.domain.Conversor;
 
 import javax.swing.*;
 
-public class MainConversor extends JFrame {
+public class MainConversorView extends JFrame {
 
     private JLabel tituloLbl;
     private JTextField horasTxt;
     private JButton conversorBtn;
     private JPanel MainPanel;
     private JLabel valorConvertidoLbl;
-    private final ConversorController conversorController = new ConversorController();
+    private Conversor conversor;
+    private final ConversorController conversorController = new ConversorController(null,this);
 
-    public MainConversor() {
+    public MainConversorView() {
         setContentPane(MainPanel);
         setTitle("Conversor de Horas");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
