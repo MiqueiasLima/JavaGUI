@@ -11,7 +11,6 @@ public class Cliente {
         this.cpf = cpf;
         this.email = email;
     }
-
     public void setNome(String nome){
         this.nome = nome;
     }

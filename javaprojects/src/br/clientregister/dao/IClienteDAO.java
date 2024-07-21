@@ -2,8 +2,10 @@ package br.clientregister.dao;
 
 import br.clientregister.domain.client.Cliente;
 
+import java.util.List;
+
 public interface IClienteDAO {
 
-    void addUser(Cliente cliente);
-
+    void addCliente(Cliente cliente);
+    List<Cliente> getAllClientes();
 }

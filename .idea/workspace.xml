@@ -5,16 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd8c09dc-b127-400a-be83-1e898aab656d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/controller/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/dao/ClienteDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/dao/IClienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/dbconnection/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/domain/client/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/test/MainRegisterView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/test/MainRegisterView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/test/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaprojects/javaprojects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaprojects/javaprojects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaprojects/src/br/conversorhoras/test/MainConversorView.form" beforeDir="false" afterPath="$PROJECT_DIR$/javaprojects/src/br/conversorhoras/test/MainConversorView.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/controller/ClienteGetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/test/ClienteListView.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/test/ClienteListView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaprojects/src/br/clientregister/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/controller/ClientRegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaprojects/src/br/clientregister/dao/ClienteDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/dao/ClienteDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaprojects/src/br/clientregister/dao/IClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/dao/IClienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaprojects/src/br/clientregister/domain/client/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/domain/client/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaprojects/src/br/clientregister/test/MainRegisterView.form" beforeDir="false" afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/test/MainRegisterView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaprojects/src/br/clientregister/test/MainRegisterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/test/MainRegisterView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaprojects/src/br/clientregister/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaprojects/src/br/clientregister/test/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprojects/br/clientregister/controller/ClientController$CadastrarListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprojects/br/clientregister/controller/ClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprojects/br/clientregister/dao/ClienteDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaprojects/br/clientregister/dao/ClienteDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprojects/br/clientregister/dao/IClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaprojects/br/clientregister/dao/IClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprojects/br/clientregister/domain/client/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaprojects/br/clientregister/domain/client/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprojects/br/clientregister/test/MainRegisterView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaprojects/br/clientregister/test/MainRegisterView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprojects/br/clientregister/test/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaprojects/br/clientregister/test/MainTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

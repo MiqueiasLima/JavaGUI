@@ -1,11 +1,11 @@
 package br.clientregister.test;
 
-import br.clientregister.controller.ClientController;
+import br.clientregister.controller.ClientRegisterController;
 
 public class MainTest {
     public static void main(String[] args) {
         MainRegisterView view = new MainRegisterView();
-        ClientController controller = new ClientController(view);
+        ClientRegisterController controller = new ClientRegisterController(view);
         view.setVisible(true);
     }
 }

@@ -9,10 +9,14 @@ public class MainRegisterView extends JFrame {
     private JTextField cpfField = new JTextField(20);
     private JTextField emailField = new JTextField(20);
     private JButton cadastrarButton = new JButton("Cadastrar");
-    private JPanel MainPanel;
+
+    private JButton buttonList = new JButton("Listar Clientes");
+    private JPanel mainPanel;
+
+    private JPanel buttonPanel = new JPanel();
 
     public MainRegisterView(){
-        setContentPane(MainPanel);
+        setContentPane(mainPanel);
         setTitle("Client Register");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(400, 200);
@@ -20,17 +24,24 @@ public class MainRegisterView extends JFrame {
         setVisible(true);
 
         // Layout da janela
-        setLayout(new GridLayout(4, 2));
 
-        // Adiciona os componentes
-        add(new JLabel("Nome:"));
-        add(nomeField);
-        add(new JLabel("CPF:"));
-        add(cpfField);
-        add(new JLabel("Email:"));
-        add(emailField);
-        add(new JLabel());
-        add(cadastrarButton);
+        mainPanel.setLayout(new BorderLayout());
+        JPanel inputPanel = new JPanel(new GridLayout(3, 2));
+        inputPanel.add(new JLabel("Nome:"));
+        inputPanel.add(nomeField);
+        inputPanel.add(new JLabel("CPF:"));
+        inputPanel.add(cpfField);
+        inputPanel.add(new JLabel("Email:"));
+        inputPanel.add(emailField);
+
+        mainPanel.add(inputPanel, BorderLayout.CENTER);
+
+        buttonPanel.setLayout(new FlowLayout());
+        buttonPanel.add(buttonList);
+        buttonPanel.add(cadastrarButton);
+
+        mainPanel.add(buttonPanel, BorderLayout.SOUTH);
+
     }
 
     public String getNome() {
@@ -47,5 +58,9 @@ public class MainRegisterView extends JFrame {
 
     public JButton getCadastrarButton() {
         return cadastrarButton;
+    }
+
+    public JButton getListarButton(){
+        return buttonList;
     }
 }
